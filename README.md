@@ -47,13 +47,13 @@ By the end of this course, students will be able to:
 ### Professor
 
 **Name:** Assist. Prof. Dr. Becir Isakovic  
-**Email:** [becir.isakovic@ibu.edu.ba] (https://calendar.app.google/eSHeRLauZKT1THLA8)  
+**Email:** [becir.isakovic@ibu.edu.ba](https://calendar.app.google/eSHeRLauZKT1THLA8)  
 **Office Location:** B, 413
 
 ### Teaching Assistants
 
 1. **Name:** TA Mirza Krupic  
-   **Email:** [mirza.krupic@ibu.edu.ba] (https://calendar.app.google/FsrTuTxfxKU4N8hY6) 
+   **Email:** [mirza.krupic@ibu.edu.ba](https://calendar.app.google/FsrTuTxfxKU4N8hY6) 
    **Office Location:** B, 413
 
 2. **Name:** TA Emina Osmic
