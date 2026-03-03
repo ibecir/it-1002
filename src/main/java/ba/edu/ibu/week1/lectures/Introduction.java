@@ -26,7 +26,7 @@ public class Introduction {
             String command = reader.nextLine();
 
             if (options.contains(command)) {
-                if (command.equals("quit")) {
+                if (!command.equals("quit")) {
                     break;
                 }
                 System.out.println("Enter first number: ");
