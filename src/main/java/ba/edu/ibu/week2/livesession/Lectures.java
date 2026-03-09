@@ -1,4 +1,4 @@
-package ba.edu.ibu.week2.lectures;
+package ba.edu.ibu.week2.livesession;
 
 import java.util.Scanner;
 
