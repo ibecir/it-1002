@@ -9,6 +9,11 @@ public class DbConnect {
 
     private Connection connection = null;
 
+    public static void main(String[] args) throws SQLException {
+        DbConnect db = new DbConnect();
+        db.getAllCustomers();
+    }
+
     public DbConnect() {
         try {
             connection = DriverManager.getConnection(CONNECTION_STRING, USERNAME, PASSWORD);
@@ -28,7 +33,7 @@ public class DbConnect {
     }
 
     public void getCustomerById(int customerId) throws SQLException {
-        // READ MORE ABOUT SQL INJECTION ATTACKS AND SHY PREPARED STATEMENT IS IMPORTANT
+        // READ MORE ABOUT SQL INJECTION ATTACKS AND WHY PREPARED STATEMENT IS IMPORTANT
         PreparedStatement statement = this.connection.prepareStatement("SELECT * FROM customers WHERE customerNumber = ?");
         statement.setInt(1, customerId);
         ResultSet rs = statement.executeQuery();
