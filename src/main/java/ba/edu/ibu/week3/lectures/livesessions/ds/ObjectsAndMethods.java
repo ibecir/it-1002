@@ -1,4 +1,4 @@
-package ba.edu.ibu.week3.livesessions.ds;
+package ba.edu.ibu.week3.lectures.livesessions.ds;
 
 import java.util.*;
 

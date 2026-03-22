@@ -1,4 +1,4 @@
-package ba.edu.ibu.week3.livesessions.db;
+package ba.edu.ibu.week3.lectures.livesessions.db;
 
 import java.sql.*;
 

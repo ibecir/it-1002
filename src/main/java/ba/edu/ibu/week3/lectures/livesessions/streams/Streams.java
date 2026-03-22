@@ -1,7 +1,7 @@
-package ba.edu.ibu.week3.livesessions.streams;
+package ba.edu.ibu.week3.lectures.livesessions.streams;
 
-import ba.edu.ibu.week3.livesessions.enums.Gender;
-import ba.edu.ibu.week3.livesessions.enums.Person;
+import ba.edu.ibu.week3.lectures.livesessions.enums.Gender;
+import ba.edu.ibu.week3.lectures.livesessions.enums.Person;
 
 import java.util.ArrayList;
 import java.util.Arrays;

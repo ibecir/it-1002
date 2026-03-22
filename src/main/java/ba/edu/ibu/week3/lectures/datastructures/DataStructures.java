@@ -1,7 +1,7 @@
-package ba.edu.ibu.week3.datastructures;
+package ba.edu.ibu.week3.lectures.datastructures;
 
-import ba.edu.ibu.week3.enums.Gender;
-import ba.edu.ibu.week3.model.User;
+import ba.edu.ibu.week3.lectures.enums.Gender;
+import ba.edu.ibu.week3.lectures.model.User;
 
 import java.util.Arrays;
 import java.util.List;
