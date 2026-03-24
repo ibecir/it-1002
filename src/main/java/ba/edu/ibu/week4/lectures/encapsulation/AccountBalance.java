@@ -1,5 +1,6 @@
 package ba.edu.ibu.week4.lectures.encapsulation;
 
+import javax.smartcardio.Card;
 import java.security.InvalidParameterException;
 import java.util.Date;
 
