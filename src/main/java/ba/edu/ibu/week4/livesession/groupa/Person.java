@@ -68,6 +68,14 @@ class Person {
             this.balance -= amount;
     }
 
+    public void withdraw() {
+        System.out.println("You cannot get what you do not have");
+    }
+
+    public static double getMeBalance() {
+        return 15;
+    }
+
     @Override
     public String toString() {
         return "Name: " + this.getName() + "\n" +
@@ -94,11 +102,12 @@ class Main {
         Person isaNew = new Person("Isa", 2004, 11111111);
         System.out.println(isa.getBalance());
 
-        System.out.println(isa.equals(isaNew));
         isa.deposit(100);
         isa.withdraw(20);
 
         System.out.println(isa);
+
+        Person.getMeBalance();
     }
 }
 
