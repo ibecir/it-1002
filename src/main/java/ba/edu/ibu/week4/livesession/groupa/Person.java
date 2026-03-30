@@ -5,7 +5,7 @@ class Person {
     private String name;
     public int yearOfBirth;
     // READ ONLY PROPERTIES
-    public double balance;
+    private double balance;
     private String password;
     /* End of attributes / properties of the class */
 
