@@ -3,9 +3,9 @@ package ba.edu.ibu.week4.livesession.groupa;
 class Person {
     /* Attributes / properties of the class */
     private String name;
-    private int yearOfBirth;
+    public int yearOfBirth;
     // READ ONLY PROPERTIES
-    private double balance;
+    public double balance;
     private String password;
     /* End of attributes / properties of the class */
 
@@ -44,7 +44,8 @@ class Person {
     public Person(String name, int yearOfBirth, double ubdsijfndsfdbifdubdidfibdfui){
         this.name = name;
         this.yearOfBirth = yearOfBirth;
-        this.balance = ubdsijfndsfdbifdubdidfibdfui;
+        if (this.balance >= 0)
+            this.balance = ubdsijfndsfdbifdubdidfibdfui;
     }
     public Person(String name, int yearOfBirth, double balance, String password){
         this.name = name;
@@ -108,6 +109,10 @@ class Main {
         System.out.println(isa);
 
         Person.getMeBalance();
+
+        Person b = new Person();
+        b.setName("Becir");
+        System.out.println(b.getName());
     }
 }
 
