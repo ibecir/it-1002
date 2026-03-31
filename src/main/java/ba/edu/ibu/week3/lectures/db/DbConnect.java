@@ -19,6 +19,8 @@ public class DbConnect {
             connection = DriverManager.getConnection(CONNECTION_STRING, USERNAME, PASSWORD);
         } catch (SQLException e) {
             throw new RuntimeException(e);
+        } finally {
+            // Perform the cleanup
         }
     }
 

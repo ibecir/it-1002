@@ -11,6 +11,12 @@ class Component {
         this.description = description;
     }
 
+    public Component(String id, String producer, int i, String description) {
+        this.id = id;
+        this.producer = producer;
+        this.description = description;
+    }
+
     public String getId() {
         return id;
     }
