@@ -33,6 +33,11 @@ class Vehicle {
 class Test{
     public static void main(String[] args) {
         System.out.println("hello");
+
+        Vehicle myMotorbike = new Bicycle(13.2, 4, BicycleType.GT);
+        myMotorbike.produceNoise();
+
+        myMotorbike.produceNoise();
     }
     public Test(String name, int age){}
 }
