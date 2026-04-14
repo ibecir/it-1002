@@ -1,4 +1,4 @@
-package ba.edu.ibu.week7.lectures.interfaces.readable;
+package ba.edu.ibu.week7.lectures.lesson.interfaces.readable;
 
 import java.util.ArrayList;
 

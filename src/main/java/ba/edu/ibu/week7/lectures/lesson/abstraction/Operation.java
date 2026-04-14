@@ -1,4 +1,4 @@
-package ba.edu.ibu.week7.lectures.abstraction;
+package ba.edu.ibu.week7.lectures.lesson.abstraction;
 
 import java.util.Scanner;
 

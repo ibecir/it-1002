@@ -1,4 +1,4 @@
-package ba.edu.ibu.week7.lectures.interfaces.readable;
+package ba.edu.ibu.week7.lectures.lesson.interfaces.readable;
 
 import java.util.ArrayList;
 
@@ -44,8 +44,14 @@ public class EBook implements Readable {
 
         numberList.add(new EBook("name", bookPages));
 
-        for (Readable readable : numberList)
+        for (Readable readable : numberList) {
+            if (readable instanceof SMS) {
+                SMS s = (SMS) readable;
+                System.out.println("#########");
+                System.out.println(s.getSender());
+            }
             System.out.println(readable.read());
+        }
     }
 
     public String getName() {

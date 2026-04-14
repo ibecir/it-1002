@@ -1,4 +1,4 @@
-package ba.edu.ibu.week7.lectures.madeupinterfaces;
+package ba.edu.ibu.week7.lectures.lesson.madeupinterfaces;
 
 import java.util.*;
 

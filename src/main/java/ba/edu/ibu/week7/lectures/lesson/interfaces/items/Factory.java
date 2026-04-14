@@ -1,4 +1,4 @@
-package ba.edu.ibu.week7.lectures.interfaces.items;
+package ba.edu.ibu.week7.lectures.lesson.interfaces.items;
 
 import java.util.Random;
 
