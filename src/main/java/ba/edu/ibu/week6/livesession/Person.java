@@ -15,7 +15,10 @@ public class Person {
     }
     public Person(String name, int birthYear, double balance) {
         this(name, birthYear);
-        this.balance = balance;
+        if(balance <= 0 || balance > 10_000)
+            System.out.println("Not allowed amount!");
+        else
+            this.balance = balance;
     }
 
     public String getName() {
