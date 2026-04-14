@@ -99,7 +99,7 @@ class RunMePlease {
         Animal someAnimal = new Lion("Lafcina", 2025, 10.1);
         Animal newAnimal = new Animal("Kengur", 1992);
 
-        printAnimalSounds(lav);
+        printAnimalSounds(komarac);
 
         System.out.println(lav.equals(lav2));
     }
