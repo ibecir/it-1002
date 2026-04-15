@@ -1,0 +1,28 @@
+package ba.edu.ibu.week8.lectures;
+
+import ba.edu.ibu.week8.lectures.inheritance.Animal;
+
+import java.io.Serializable;
+
+// Bounded generic on the interfaces and classes
+// As many of these as you want although only one class and class should come first
+public class SpecificAndInterfacePrinter<T extends Animal & Serializable & Comparable> {
+    private T thingToPrint; // Totally unaware what T will become
+
+    // Generic type, anything we want
+    public SpecificAndInterfacePrinter(T thingToPrint) {
+        this.thingToPrint = thingToPrint;
+    }
+
+    public T getThingToPrint() {
+        return thingToPrint;
+    }
+
+    public void setThingToPrint(T thingToPrint) {
+        this.thingToPrint = thingToPrint;
+    }
+
+    public void print() {
+        System.out.println(this.thingToPrint);
+    }
+}
