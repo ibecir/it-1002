@@ -23,7 +23,9 @@ class OptionalsExample {
 
         String name = Optional
                 .ofNullable("Top")
-                .orElseGet(() -> "Becir");
+                .orElseGet(() -> {
+                    return "Becir";
+                });
 
         String nameValue = human
                 .map(Human::name)

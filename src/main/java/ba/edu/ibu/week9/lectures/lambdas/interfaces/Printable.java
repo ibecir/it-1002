@@ -6,4 +6,7 @@ package ba.edu.ibu.week9.lectures.lambdas.interfaces;
 @FunctionalInterface
 public interface Printable {
     public String printMe(String suffix); // Abstract method
+    public default void printSometing() {
+        System.out.println("Hello");
+    }
 }
