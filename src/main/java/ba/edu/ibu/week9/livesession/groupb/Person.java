@@ -1,4 +1,4 @@
-package ba.edu.ibu.week9.livesession;
+package ba.edu.ibu.week9.livesession.groupb;
 
 import java.util.Objects;
 
