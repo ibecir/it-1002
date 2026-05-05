@@ -42,7 +42,7 @@ class Person {
         System.out.println("Hello my friends");
     }
 
-    @RunMeASAPNTimes(numberOfTimes = 4) // default of 1 as we declared it!
+    @RunMeASAPNTimes // default of 1 as we declared it!
     public void sayYourName() {
         System.out.println("My name is " + this.name);
     }
