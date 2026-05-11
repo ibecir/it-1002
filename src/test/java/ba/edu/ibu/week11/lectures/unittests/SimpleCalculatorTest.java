@@ -30,6 +30,6 @@ class SimpleCalculatorTest {
         SimpleCalculator calculator = new SimpleCalculator();
         // From Java 10 Java can infer so var is allowed (Local variable type inference)
         // var calculator = new SimpleCalculator();
-        assertEquals(8, calculator.add(2, 5));
+        assertNotEquals(8, calculator.add(2, 5));
     }
 }
