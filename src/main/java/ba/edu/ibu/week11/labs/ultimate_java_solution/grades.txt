@@ -1,0 +1,8 @@
+Amir,85
+Emina,92
+Sara,invalid
+Kerim,74
+Lejla,101
+Adnan,-5
+Mia,55
+WrongLineWithoutComma

@@ -1,0 +1,9 @@
+Amir,85
+Emina,92
+Sara,invalid
+Kerim,74
+,88
+Lejla,105
+Hana,54
+Tarik,60
+InvalidLineWithoutComma
