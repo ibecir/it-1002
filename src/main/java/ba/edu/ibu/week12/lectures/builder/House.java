@@ -4,6 +4,7 @@ class MainRun {
     public static void main(String[] args) {
         ProblemHouse fadilsHouse = new ProblemHouse("a", 400, "My nice pool", 100.00, "Nice garden" );
         ProblemHouse becirHouse = new ProblemHouse("a", 0, null, 0, null);
+        ProblemHouse mySmallHouse = new ProblemHouse("asdas", 9, "no", 12, "no");
 
         House fadilsLuxaryHouse = new House.HouseBuilder("Oxford Street", 1000)
                 .setHasSwimmingPool(true)
