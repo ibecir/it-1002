@@ -19,7 +19,7 @@ problems.
 public class SumMultithreaded {
 
     private static final int ARRAY_SIZE = 100_000_000;
-    private static final int NUM_THREADS = 30;
+    private static final int NUM_THREADS = 4;
 
     private static int[] array = new int[ARRAY_SIZE];
 

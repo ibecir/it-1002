@@ -16,7 +16,7 @@ public class NetworkProgramming {
 //        readJson("https://mocki.io/v1/b338a8e7-edf4-493d-a3e5-d3a424a744b5");
 //        postExample();
 //        socketServer(2345);
-//        socketClient("127.0.0.1", 2345);
+        socketClient("127.0.0.1", 2345);
 //        readSimpleJson();
     }
 
@@ -36,7 +36,7 @@ public class NetworkProgramming {
         String line = null;
         while ((line = inputStream.readLine()) != null) content = content + line;
 
-        String pattern = "<h1[^>]*>(.*?)</h1>";
+        String pattern = "<h2[^>]*>(.*?)</h2>";
 
         Pattern regex = Pattern.compile(pattern, Pattern.DOTALL);
         Matcher matcher = regex.matcher(content);
@@ -117,7 +117,7 @@ public class NetworkProgramming {
                 OutputStream output = connection.getOutputStream();
                 PrintWriter writer = new PrintWriter(output, true); // auto-flush
 
-                writer.println("Hello, client!");
+                writer.println("Hello, client, I received your message!");
             }
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -135,7 +135,7 @@ public class NetworkProgramming {
             OutputStream output = socket.getOutputStream();
             PrintWriter writer = new PrintWriter(output, true); // auto-flush
 
-            writer.println("Hello, server!");
+            writer.println("Hello, server I'm OOP socket client!");
 
             // Read data from the server
             String serverData;
